@@ -156,7 +156,7 @@
     border-color: rgba(77, 90, 229, 1);
 }
 
-.input-wrapper:hover .form-icon{
+.input-wrapper:focus .form-icon{
     color: rgba(77, 90, 229, 1);
     fill: rgba(77, 90, 229, 1);
 }
