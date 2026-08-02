@@ -146,11 +146,13 @@
     color: rgba(46, 47, 66, 0.4);
 }
 
-.form-input:hover{
+.form-input:hover,
+.form-input:focus{
     border-color: rgba(77, 90, 229, 1);
 }
 
-.form-input:hover + .form-icon{
+.form-input:hover + .form-icon,
+.form-input:focus + .form-icon{
     border-color: rgba(77, 90, 229, 1);
     color: rgba(77, 90, 229, 1);
     fill: rgba(77, 90, 229, 1);
