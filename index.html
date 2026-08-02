@@ -373,24 +373,23 @@
                 </li>
             </ul>
         </div>
-        <fieldset class="subscribe">
-            <legend class="title-sub">Subscribe</legend>
+        <div class="subscribe">
+            <p class="title-sub">Subscribe</p>
             <form class="footer-form">
                 <label class="footer-label">
-                    <input class="footer-email" type="text" name="email" placeholder="E-mail">
+                    <input class="footer-email" type="email" name="email" placeholder="E-mail">
                 </label>
-                <button class="footer-button" type="submit">
-                    <p class="title-button">Subscribe</p>
-                    <svg class="send" width="200px" height="24px">
+                <button class="footer-button" type="submit">Subscribe
+                    <svg class="send" width="24" height="24">
                         <use href="./images/icons.svg#send" />
                     </svg>
                 </button>
             </form>
-        </fieldset>
         </div>
+    </div>
     </footer>
     <div class="modal-overlay">
-        <div class="modal">
+        <div id="modal" class="modal">
             <button class="sign-close" type="button">
                <svg class="close" width="8px" height="8px">
                 <use href="./images/icons.svg#close" />
@@ -408,7 +407,7 @@
                             <input class="form-input" type="text" name="name" id="name" autofocus> 
                         </div> 
                     </div>
-                    <div lass="form-control">                       
+                    <div class="form-control">                       
                         <label for="phone" class="form-label">Phone</label>
                         <div class="input-wrapper">
                             <svg class="form-icon" width="12px" height="12px">
@@ -441,9 +440,7 @@
                             </div>
                             <span class="accept-text">I accept the terms and conditions of the <a class="accept-link" href="#">Privacy Policy</a></span>
                     </div>
-                    <button class="modal-button" type="submit">
-                        <p class="title-button-modal">Send</p>
-                    </button>
+                    <button class="modal-button" type="submit">Send</button>
                 </form>
             </fieldset>
         </div>

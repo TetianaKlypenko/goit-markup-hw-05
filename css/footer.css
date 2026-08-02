@@ -72,9 +72,7 @@
 }
 
 .subscribe{
-    padding: 0;
-    margin: 0;
-    border: none;
+    margin-left: auto;
 }
 
 .title-sub{
@@ -84,6 +82,7 @@
     font-size: 16px;
     letter-spacing: 0.02em;
     line-height: 1.5;
+    margin-bottom: 16px;
 }
 
 .footer-form{
@@ -102,8 +101,8 @@
     height: 40px;
     border-radius: 4px;
     border: 1px solid #FFFFFF;
-    margin-top: 16px;
-    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    color: #FFFFFF;
 }
 
 .footer-email::placeholder{
@@ -116,7 +115,7 @@
 }
 
 .footer-email:focus{
-    border: 1px solid #31D0AA;
+    border-color: #31D0AA;
     outline: none;
 }
 
@@ -134,6 +133,13 @@
     margin-bottom: 0;
     border: 0;
     justify-content: center;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .send{
@@ -141,15 +147,7 @@
     fill: #FFFFFF;
 }
 
-.title-button{
-    font-family: Roboto;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #FFFFFF;
-}
-
-.footer-button:hover{
+.footer-button:hover,
+.footer-button:focus{
     background-color: #31D0AA;
 }
