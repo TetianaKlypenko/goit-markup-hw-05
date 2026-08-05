@@ -177,6 +177,7 @@
     letter-spacing: 0.04em;
     color: rgba(142, 143, 153, 1);
     white-space: normal;
+    margin-left: 8px;
 }
 
 .accept-link{
@@ -221,7 +222,7 @@
     border-color: rgba(64, 75, 191, 1);
 }
 
-.checkbox:checked + .icon-check{
+.checkbox:checked + .check .icon-check{
     opacity: 1;
 }
 .modal-button{
@@ -266,9 +267,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /*opacity: 0;
+    opacity: 0;
     pointer-events: none;
-    visibility: hidden;*/
+    visibility: hidden;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
